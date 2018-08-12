@@ -10,7 +10,7 @@
 ### base 函数
 killTomcat()
 {
-	pid=`ps -ef|grep 8081|grep java|awk '{print $2}'`
+	pid=`ps -ef|grep 8082|grep java|awk '{print $2}'`
 	echo "tomcat Id list:$pid"
 	if [ "$pid" = "" ]
 	then
