@@ -16,7 +16,6 @@ killTomcat()
 	then
 		echo "no tomcat pid value"
 	else
-		sudo su
 		kill -9 $pid
 	fi
 }
