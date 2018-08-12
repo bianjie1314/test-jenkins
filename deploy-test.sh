@@ -38,5 +38,5 @@ cd $TOMCAT_APP_PATH/webapps/
 mv test-jenkins.war ROOT.war
 
 #启动tomcat
-cd $TOMCAT_APP_PATH
+cd $TOMCAT_APP_PATH/
 sh bin/startup.sh
